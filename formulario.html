@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulario</title>
+</head>
+<body>
+     
+    <form class="formulario" id="formulario"> 
+        <h3>Formulario</h3>
+        <input class="controles" type="text" placeholder="Nombre" name="nombre" id="nombre">
+        <input class="controles" type="text" placeholder="Apellido" name="apellido" id="apellido">
+        <input class="controles" type="email" placeholder="Ingrese su email" name="email" id="email">
+        <br>
+        <input class="boton" type="radio" name="sexo" id="">Hombre
+        <input class="boton" type="radio" name="sexo" id="">Mujer
+        <br>
+        <input class="controles" type="number" placeholder="Telefono" name="telefono" id="telefono">
+        <br>
+        <label for="pais">pais</label>
+        <select class="controles" name="pais" id="pais">
+            <option value="Colombia">Colombia</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Peru">Peru</option>
+            <option value="Argentina">Argentina</option>
+        </select>
+        <br>
+        <label for="fecha">fecha de nacimiento:</label>
+        <input class="controles" type="date" name="fecha" id="fecha" required>
+        <input class="controles" type="text" placeholder="Deporte que practica" name="deporte" id="deporte">
+        <input class="controles" type="text" placeholder="Curso inscrito" name="curso" id="curso">
+        <input class="controles" type="number" placeholder="Codigo estudiante" name="codigo" id="codigo">
+        <br>
+        <input class="boton1" type="submit" value="Enviar">
+
+    </form>
+    <script src="validaciones.js"></script>
+</body>
+
+</html>

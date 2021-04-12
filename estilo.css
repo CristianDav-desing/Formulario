@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formulario
+{
+    width: 400px;
+    background: darkslategray;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    color: seashell;
+}
+
+.formulario h3
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controles{
+    width: 100%;
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.boton{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 16px;
+    font-size: 18px;
+    background-color:whitesmoke;
+}
+
+.boton1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 16px;
+    font-size: 18px;
+    background-color: aqua;
+    width: 100%;
+    padding: 5%;
+}
+
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/538/894/non_2x/abstract-black-hexagon-pattern-on-yellow-neon-background-technology-style-honeycomb-vector.jpg);
+}
